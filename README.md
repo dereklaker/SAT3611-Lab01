@@ -42,6 +42,8 @@ Change this to:
 ```
 config.vm.box = "generic/fedora28"
 ```
+To find more information about boxes, click [here](https://www.vagrantup.com/docs/boxes.html)
+
 All set! Now run:
 ```
 vagrant up
@@ -54,4 +56,5 @@ vagrant ssh
 ```
 If you need a GUI environment, go to your Virtual Manager, IE: VirtualBox/VMWare
 You'll see a new vm with a name somewhat like "fed28_default_"
+
 For VirtualBox, right click the VM and select "Show". This will show you the window just as if you were to not use vagrant in the first place.
